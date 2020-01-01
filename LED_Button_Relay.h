@@ -9,6 +9,16 @@
 
 #define relay1 8
 #define relay2 7
+#define tactile 3
+
+
+class relays {
+
+public:
+
+void button();
+  
+};
 
 
 
