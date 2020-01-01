@@ -7,7 +7,8 @@
   #include "WProgram.h"
 #endif
 
-
+#define relay1 8
+#define relay2 7
 
 
 
