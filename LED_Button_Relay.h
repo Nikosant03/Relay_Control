@@ -17,6 +17,14 @@ class relays {
 public:
 
 void button();
+void startMillisFunc();
+
+private:
+
+unsigned long currentMillis;
+unsigned long startMillis;
+int timer1;
+int timer2;
   
 };
 

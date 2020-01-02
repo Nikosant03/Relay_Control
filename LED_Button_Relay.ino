@@ -1,5 +1,7 @@
 #include "LED_Button_Relay.h"
 
+
+
 relays relay;
 
 void setup() {
@@ -9,6 +11,8 @@ void setup() {
   pinMode(relay2, OUTPUT);
   pinMode(tactile, INPUT);
   digitalWrite(tactile,LOW);
+  
+  relay.startMillisFunc();
 
 }
 
