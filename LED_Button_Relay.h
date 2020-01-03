@@ -25,6 +25,9 @@ unsigned long currentMillis;
 unsigned long startMillis;
 int timer1;
 int timer2;
+const unsigned long Relay1_period = 15000;  //Relay 1 stay active for 15s
+const unsigned long Relay2_Start = 2000;  //Relay 2 starts 2 sec after the button is pressed
+const unsigned long Relay2_period = 2000;  //Relay 2 stay active for 2sec
   
 };
 
