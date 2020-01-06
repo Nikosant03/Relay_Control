@@ -7,12 +7,12 @@ relays relay;
 void setup() {
   Serial.begin(9600);
   
+  pinMode(tactile, INPUT);
   pinMode(relay1, OUTPUT);
   pinMode(relay2, OUTPUT);
-  pinMode(tactile, INPUT);
-  digitalWrite(tactile,LOW);
-  
-  relay.startMillisFunc();
+  digitalWrite(tactile, LOW);
+  digitalWrite(relay1, HIGH); //The initial state of the relay1 is OFF
+  digitalWrite(relay2, HIGH); //The initial state of the relay2 is OFF
 
 }
 
